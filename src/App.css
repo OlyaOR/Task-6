@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg,#89b4c5, #bddae0, #edf8f0) center center/cover no-repeat;
+    min-height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-link {
+    color:#2d4140;
+    text-decoration: none;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-link:hover {
+    color:#1a3763;
 }
-
-.App-link {
-  color: #61dafb;
+.main {
+    text-align: center;
+    padding-top: 40px;
+    color:#1a3763;
+    font-size: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employee {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color:#1a3763;
+}
+.employee-items {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    width: 320px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.employee-item {
+    width: 300px;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: #fff;
+    border-radius: 20px;
+}
+.delete-btn, .add-btn {
+    color:#edf8f0;
+    border: solid 1px #1a3763;
+    border-radius: 5px;
+    padding: 3px 7px;
+    background: #1a3763;
+}
+.add-btn {
+    width: 120px;
+    height: 30px;
+}
+.delete-btn:hover, .add-btn:hover, .input-employee {
+    background: #EFEFF0;
+    color:#1a3763;
+}
+.inputs {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 20px;
+}
+.input-employee {
+    border: solid 1px #1a3763;
+    border-radius: 5px;
+    padding: 3px 7px;
+    height: 30px;
 }
