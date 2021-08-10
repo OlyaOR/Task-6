@@ -1,5 +1,5 @@
-This site is the result of task 6 for interview.
-Read the task here: 
+#### This site is the result of task 6 for interview:https://task6-for-interview.netlify.app/employees
+#### Read the task here:https://tasks-for-interview-resliv.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
