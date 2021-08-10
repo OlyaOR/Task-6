@@ -1,4 +1,4 @@
-#### This site is the result of task 6 for interview:https://task6-for-interview.netlify.app/employees
+#### This site is the result of task 6 for interview:https://task6-for-interview.netlify.app/
 #### Read the task here:https://tasks-for-interview-resliv.netlify.app/
 # Getting Started with Create React App
 
