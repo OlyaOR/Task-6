@@ -82,3 +82,10 @@ h2 {
     padding: 3px 7px;
     height: 30px;
 }
+.main_text {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.main_text a {
+    color:#2d4140;
+}
